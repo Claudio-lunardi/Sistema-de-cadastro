@@ -1,0 +1,24 @@
+﻿@model DevPrimeiraAula.Models.ClienteModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Clientes</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <partial name="_Formulario" />
+
+        </form>
+    </div>
+</div>
+
+<div>
+</div>
+

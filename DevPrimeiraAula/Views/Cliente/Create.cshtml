@@ -1,0 +1,22 @@
+﻿@model DevPrimeiraAula.Models.ClienteModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastro de clientes</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+         <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <partial name="_Formulario" />
+
+        </form>
+    </div>
+</div>
+
+

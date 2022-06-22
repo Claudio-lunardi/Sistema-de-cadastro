@@ -1,0 +1,84 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    width: 100%;
+    
+}
+
+.nav-item {
+    font-family: Arial;
+    font-weight: 700;
+    animation-iteration-count: infinite;
+    margin-left: 15px;
+    font-size: 17px
+}
+
+    .nav-item:hover {
+        background-color: #0000CD;
+        transition: background-color 0.35s;
+        border-radius: 17px;
+        -webkit-transform: rotateZ(-3deg);
+        -ms-transform: rotateZ(-3deg);
+        transform: rotateZ(-3deg);
+    }
+
+.navbar-brand {
+    font-family: arial;
+    font-weight: 700;
+    animation-iteration-count: infinite;
+    margin-left: 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.TituloHome {
+    font-family:Arial;
+    font-weight:700;
+    font-size:70px;
+    color:#000;
+    margin:30px auto;
+
+}
+.HomeCenter {
+    width: 60%;
+    height: 70%;
+    display: table;
+    margin: 30px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 4px 4px 12px rgba(0,0,0, 0.15);
+}
+h1 {
+    font-family: arial;
+    font-weight: 600;
+    color: white;
+}
+
+.table, .row {
+    font-family: arial;
+    font-weight: 700;
+    color: white;
+}
+
+body {
+    background: #23232e;
+}
+

@@ -1,0 +1,22 @@
+.Main-login {
+
+height: 500px;
+width: 400px;
+background-color: white;
+margin-left:auto;
+margin-right:auto;
+border-radius:20px;
+justify-content:center;
+align-items:center;
+
+}
+
+.Texto {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.Login {
+    color: darkcyan;   
+}

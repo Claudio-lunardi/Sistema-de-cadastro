@@ -1,0 +1,21 @@
+﻿@model DevPrimeiraAula.Models.FuncionarioModel
+
+@{
+    ViewData["Title"] = "Funcionario";
+}
+
+
+
+<h1>Cadastro de funcionario</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <partial name="_Formulario" />
+
+        </form>
+    </div>
+</div>
+
